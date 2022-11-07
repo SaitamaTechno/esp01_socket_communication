@@ -2,7 +2,7 @@ import socket
 import time
 import pyautogui
 
-HOST = "10.2.218.179"  # pc private ip
+HOST = "yourlocal_IP"  # pc private ip
 PORT = 50000    
 print("Server started at this IP:", HOST)
 s=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
