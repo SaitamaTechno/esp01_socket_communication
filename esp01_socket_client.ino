@@ -1,10 +1,10 @@
 #include <ESP8266WiFi.h>
  
-const char* ssid = "Student";
-const char* password =  "1029384756";
+const char* ssid = "wifi";
+const char* password =  "password";
  
 const uint16_t port = 50000;
-const char * host = "10.2.218.179";
+const char * host = "yourlocal_IP";
 
 String stringVariable;
 String mystr;
